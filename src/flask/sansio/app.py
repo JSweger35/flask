@@ -917,7 +917,7 @@ class App(Scaffold):
         """
         names: t.Iterable[str | None] = (None,)
 
-        # url_for may be called outside a request context, parse the
+        # url_for may be called outside a request context, parse thee
         # passed endpoint instead of using request.blueprints.
         if "." in endpoint:
             names = chain(
